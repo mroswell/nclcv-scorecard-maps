@@ -278,11 +278,11 @@
         g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
     }
 
-    If the drag behavior prevents the default click,
-    also stop propagation so we don’t click-to-zoom.
+//    If the drag behavior prevents the default click,
+//    also stop propagation so we don’t click-to-zoom.
     function stopped() {
         if (d3.event.defaultPrevented) d3.event.stopPropagation();
-//    }
+   }
 </script>
 </body>
 </html>

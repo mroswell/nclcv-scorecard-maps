@@ -5,10 +5,26 @@
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="css/leaflet.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div class="container">
     <div class="row">
+        <div class="leaflet-control-container">
+            <div class="leaflet-top leaflet-left">
+                <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in">+</a><a class="leaflet-control-zoom-out leaflet-disabled" href="#" title="Zoom out">-</a>
+                </div>
+            </div>
+            <div class="leaflet-top leaflet-right">
+                <div class="leaflet-control-grid map-tooltip leaflet-control" style="display: none;"><a class="close" href="#" title="close">close</a>
+                    <div class="map-tooltip-content"></div>
+                </div>
+            </div>
+            <div class="leaflet-bottom leaflet-left"></div>
+            <div class="leaflet-bottom leaflet-right">
+                <div class="leaflet-control-attribution leaflet-control"></div>
+            </div>
+        </div>
         <h1>North Carolina League of Conservation Voters  <br><small>State Senate Scorecard Map</small></h1>
     </div>
     <div class="row">
